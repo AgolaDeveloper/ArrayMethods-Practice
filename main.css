@@ -1,10 +1,12 @@
 body{
     background-color: wheat;
 }
-main{
+.main{
  background-color: ivory;
  max-width: 50%;
     margin: auto;
+    padding: 20px;
+    height: 100vh;
 }
 
 button{
