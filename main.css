@@ -6,3 +6,8 @@ main{
  max-width: 50%;
     margin: auto;
 }
+
+button{
+    background-color: black;
+    color: white;
+}
