@@ -26,7 +26,7 @@ function as(){
    var ase= arr.sort(function (a,b){
     return a-b;
 })
-document.getElementById("p3").innerHTML= "IN ASCENDING ORDER: "+ase;
+document.getElementById("p3").innerHTML= "IN ASCENDING ORDER: "+ase+" and largest number is "+ase[0];
 
 }
  //arr.sort(as);
@@ -39,7 +39,7 @@ document.getElementById("asend").addEventListener("click",as)
 
 
 function great(){
-    var isGrt= arr.filter(function isGreat(num){
+    var isGrt= arr.filter(function (num){
         return num>=10;
     });
     document.getElementById("p2").innerHTML= "NUMBERS GREATER THAN 10 IN THE ARRAY: "+isGrt;
